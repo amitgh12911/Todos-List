@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: FontAwesome;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar form input {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.container {
+    width: 75%;
+    margin: 10px auto;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn {
+    align-self: flex-start;
+    font-size: 23px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.container h3 {
+    margin: 10px 0;
+}
+textarea,
+input {
+    outline: none;
+}
+
+textarea {
+    font-size: 18px;
+}
+
+.notes-container {
+    width: 75%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.notes-container .box {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgray;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.notes-container .box:nth-child(3n + 1) {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.notes-container .box:nth-child(3n + 2) {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+.notes-container .box:nth-child(3n) {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+small {
+    color: rgba(0, 0, 0, 0.5);
+}
